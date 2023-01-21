@@ -1,0 +1,21 @@
+[debug] [2022-12-18T10:36:17.690Z] ----------------------------------------------------------------------
+[debug] [2022-12-18T10:36:17.691Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:start
+[debug] [2022-12-18T10:36:17.692Z] CLI Version:   11.17.0
+[debug] [2022-12-18T10:36:17.692Z] Platform:      darwin
+[debug] [2022-12-18T10:36:17.692Z] Node Version:  v18.12.0
+[debug] [2022-12-18T10:36:17.692Z] Time:          Sun Dec 18 2022 11:36:17 GMT+0100 (Central European Standard Time)
+[debug] [2022-12-18T10:36:17.692Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-18T10:36:17.754Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-18T10:36:17.754Z] > authorizing via signed-in user (tulipgirl783@gmail.com)
+[debug] [2022-12-18T10:36:17.789Z] The operation couldn’t be completed. Unable to locate a Java Runtime.
+Please visit http://www.java.com for information on installing Java.
+
+
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[debug] [2022-12-18T10:36:22.796Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/local/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
